@@ -1,0 +1,27 @@
+package TestNG_Assignment;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import util.DriverConnection;
+
+// 18. W.a. TestNG program to create group with testing.xml file
+
+public class Que_18 {
+	       WebDriver driver = null;
+	       @Test
+           public void login() {
+            	       driver = new DriverConnection().getConnection();
+            	       driver.get("https://careercenter.tops-int.com/");
+            	       driver.findElement(By.id("mobile")).sendKeys("7041480673");
+            	       driver.findElement(By.id("password")).sendKeys("7041480673");
+            	       driver.findElement(By.xpath("//input[@value='Login']")).click();
+            	  } 
+	       public void home() {
+	    	           driver.findElement(By.id("profileDropdown")).click();
+	    	           driver.findElement(By.linkText("Personal Details")).click();
+	    	           driver.findElement(By.linkText("Education Details")).click();
+	       }
+            }
+

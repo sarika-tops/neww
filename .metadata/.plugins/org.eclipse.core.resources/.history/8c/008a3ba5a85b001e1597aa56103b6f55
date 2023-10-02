@@ -1,0 +1,11 @@
+package TestNG_Assignment;
+
+public class Que_18_FoodItem {
+            public void searchItem() {
+            	         System.out.println("search item");
+            }
+            public void addtoCart() {
+            	        System.out.println("add to cart");
+            }
+            
+}

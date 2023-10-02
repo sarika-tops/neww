@@ -1,0 +1,24 @@
+package Practice;
+
+import java.util.Scanner;
+
+
+
+//PizzaMenu(String pizzaSize) {
+//Scanner sc = new Scanner(System.in);
+//System.out.print("Enter the pizza size (small/medium/large/monster): " +pizzaSize);
+//this.pizzaSize = pizzaSize;
+//}
+//PizzaMenu(int quantity){
+//Scanner sc = new Scanner(System.in);
+//System.out.println("Enter the quantity : " +quantity);
+//this.quantity = quantity;
+//
+//}
+//System.out.println("Welcome to D pizza");
+//System.out.println("Small pizza-150, medium pizza-250, large pizza-350, monster pizza-500");
+//System.out.println("Offers on "
+//		+ "Buy 4 small pizza & get 500 ml coke free");
+//System.out.println("Buy 3 Medium pizza & get garlic bread");
+//System.out.println("Buy 3 large pizza & get 500 ml coke+ garlic bread free");
+//System.out.println("Buy 2 monster pizza and get 500ml coke+garlic bread + icecream");

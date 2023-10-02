@@ -1,0 +1,10 @@
+package FileWriterReader;
+
+import java.util.ArrayList;
+
+public class FileInputStream {
+           public static void main(String[] args) {
+		   ArrayList<String> a = new ArrayList<String>();
+		   FileInputStream fis = new FileInputStream("C:\\Users\\Sarika Namsha\\Desktop\\ExcelReader.xlsx");
+		}
+}

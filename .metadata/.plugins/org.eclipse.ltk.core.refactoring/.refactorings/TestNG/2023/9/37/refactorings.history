@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;TestNG.TestNG&apos; to &apos;Basic&apos;&#x0D;&#x0A;- Original project: &apos;TestNG&apos;&#x0D;&#x0A;- Original element: &apos;TestNG/src/test/java/TestNG.TestNG&apos;&#x0D;&#x0A;- Renamed element: &apos;TestNG/src/test/java/Basic&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;TestNG.TestNG&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;TestNG.TestNG" name="Basic" qualified="false" references="true" stamp="1694748379057" textual="false" version="1.0"/>
+</session>

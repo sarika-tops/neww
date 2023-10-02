@@ -1,0 +1,10 @@
+package TestNG_Assignment;
+
+public class Que_18_Payment {
+            public void COD() {
+            	         System.out.println("cash on delivery");
+            }
+            public void ZomatoBalance() {
+            	         System.out.println("zomato balance");
+            }
+}

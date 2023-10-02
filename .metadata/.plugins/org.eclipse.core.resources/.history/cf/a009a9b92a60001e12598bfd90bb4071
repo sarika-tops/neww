@@ -1,0 +1,16 @@
+package Practice;
+
+public class TheDPizza {
+            public static void main(String[] args) {
+		
+		getOrder();
+         
+String orderChoice = sc.next();
+	if(orderChoice == "yes"){
+	    getOrder();
+	}
+	
+	    System.out.println("Total Cost: Rs. " + totalCost);
+	
+
+}

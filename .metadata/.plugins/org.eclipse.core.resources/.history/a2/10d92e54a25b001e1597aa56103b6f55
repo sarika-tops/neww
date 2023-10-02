@@ -1,0 +1,11 @@
+package TestNG_Assignment;
+
+import org.testng.annotations.Test;
+
+// 18. W.a. TestNG program to create group with testing.xml file
+
+public class Que_18 {
+            public void home() {
+            	  } 
+            }
+

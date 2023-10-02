@@ -1,0 +1,13 @@
+package FileInputStream;
+
+import java.io.FileInputStream;
+import java.util.ArrayList;
+
+public class DataDriven {
+           
+	       public static void getData() {
+	    	           ArrayList<String> a = new ArrayList<String>();
+	    	           FileInputStream fis = new FileInputStream("C:\\Users\\Sarika Namsha\\Desktop\\ExcelReader.xlsx");
+	    	           
+	       }
+}

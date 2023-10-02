@@ -1,0 +1,28 @@
+package TestNG_Assignment;
+
+import static org.testng.Assert.assertEquals;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+// 19. w.a. TestNG program to create dataprovider.
+
+public class Que_19 {
+	        @Test(dataProvider = "dp")
+	        public void test(int a, int b, int result) {
+	        	        int sum[] = a[]+b[];
+	        	        assertEquals(result, sum);
+	        }
+	       @DataProvider(name = "dp")
+            public Object[][] dp() {
+            	       Object[] []o = new Object[2][2];
+            	       
+            	       o[0][0] = 5;
+            	       o[0][1] = 10;
+            	       
+            	       o[1][0] = 10;
+            	       o[1][1] =  15; 
+            	       
+            	       return o;
+            }
+}

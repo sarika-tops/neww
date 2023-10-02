@@ -1,0 +1,5 @@
+package FileWriterReader;
+
+public class FileInputStream {
+
+}

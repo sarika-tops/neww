@@ -1,0 +1,28 @@
+package InterfaceDemo;
+
+class InterImple implements Inter1,Inter2 {
+		@Override
+		public void Interface3() {
+			System.out.println("Interface 3");
+		}
+		@Override
+		public void Interface2() {
+			System.out.println("Interface 2");
+		}
+		@Override
+		public void Interface1() {
+			System.out.println("Interface 1");
+		}
+}
+
+public class InterfaceCall {
+			public static void main(String[] args) {
+			                      InterImple i = new InterImple();
+			                      i.Interface1();
+			                      i.Interface2();
+			                      i.Interface3();
+			                      Inter1.interfacee1();
+			                      Inter2.interfacee2();
+			                      Inter3.interfacee3();
+		}
+}

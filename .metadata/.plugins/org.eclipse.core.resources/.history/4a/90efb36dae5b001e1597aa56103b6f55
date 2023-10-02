@@ -1,0 +1,17 @@
+package TestNG_Assignment;
+
+// 19. w.a. TestNG program to create dataprovider.
+
+public class Que_19 {
+            public Object[][] dp() {
+            	       Object[] []o = new Object[2][2];
+            	       
+            	       o[0][0] = 5;
+            	       o[0][1] = 10;
+            	       
+            	       o[1][0] = 10;
+            	       o[1][1] =  15; 
+            	       
+            	       return o;
+            }
+}

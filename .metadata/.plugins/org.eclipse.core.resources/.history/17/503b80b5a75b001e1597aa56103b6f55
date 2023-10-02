@@ -1,0 +1,18 @@
+package TestNG_Assignment;
+
+// 18. W.a. TestNG program to create group with testing.xml file
+
+public class Que_18_User {
+           public void register() {
+        	           System.out.println("register user");
+           }
+           public void login() {
+           			   System.out.println("login user");
+           }
+           public void profile() {
+           	 		   System.out.println("profile user");
+           }
+           public void logout() {
+           			   System.out.println("logout user");
+           }
+}
